@@ -27,7 +27,7 @@ class Produto
     function getPreco()
     {
         return
-        $this->preco;
+            $this->preco;
     }
 
     //QUANTIDADE
@@ -39,9 +39,8 @@ class Produto
     function getQuantidade()
     {
         return
-        $this->quantidade;
+            $this->quantidade;
     }
-
 }
 
 $produto = new Produto();
@@ -50,8 +49,8 @@ $produto->setNome('Computador');
 $produto->setPreco(1200);
 $produto->setQuantidade(10);
 
-echo $produto->getNome()  .'<br>';
-echo $produto->getPreco() .'<br>';
-echo $produto->getQuantidade() .'<br>';
+echo $produto->getNome()  . '<br>';
+echo $produto->getPreco() . '<br>';
+echo $produto->getQuantidade() . '<br>';
 
 ?>
