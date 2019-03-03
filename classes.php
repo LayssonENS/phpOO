@@ -18,7 +18,6 @@ class Pessoa
 }
 
 $pessoa = new Pessoa();
-
 $pessoa->setNome('Laysson');
 echo $pessoa->getNome();
 
